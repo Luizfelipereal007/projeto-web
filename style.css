@@ -25,6 +25,7 @@ a{
     color: #ffffff;
     text-decoration: none;
     transition: 0.70s;
+    align-items: center;
 }
 
 a:hover{
@@ -45,10 +46,13 @@ ul{
     padding: 25px;
     border: 1px solid #23232e;
     border-radius: 10px;
+    background-color: #23232e;
 }
 
 .card-container { 
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     grid-gap: 10px;
 }
