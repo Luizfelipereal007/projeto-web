@@ -37,3 +37,18 @@ ul{
     gap: 30px;
     letter-spacing: 1,5px;
 }
+
+
+.card {
+    margin: 6vw;
+    width: 260px;
+    padding: 25px;
+    border: 1px solid #23232e;
+    border-radius: 10px;
+}
+
+.card-container { 
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 10px;
+}
