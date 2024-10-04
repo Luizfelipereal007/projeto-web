@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #d5d5c9;
+}
+nav {
+    background-color: #23232e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.70s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    letter-spacing: 1,5px;
+}
