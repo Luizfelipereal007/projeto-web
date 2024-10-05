@@ -25,11 +25,25 @@ a{
     color: #ffffff;
     text-decoration: none;
     transition: 0.70s;
-    align-items: center;
+    
+}
+
+
+.Texto{
+    margin: 6vw;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #23232e;
+    padding: 10px;
 }
 
 a:hover{
     opacity: 0.7;
+}
+
+.card:hover{
+    opacity: 0.9;
+
 }
 
 ul{
@@ -41,9 +55,9 @@ ul{
 
 
 .card {
-    margin: 6vw;
-    width: 260px;
-    padding: 25px;
+    margin: 2vw;
+    width: 230px;
+    padding: 15px;
     border: 1px solid #23232e;
     border-radius: 10px;
     background-color: #23232e;
@@ -53,6 +67,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     grid-gap: 10px;
 }
