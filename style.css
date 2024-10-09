@@ -1,11 +1,39 @@
+@import url('reset.css');
+
 * {
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --cor-fundo: #d5d5c9;
+    --cor-texto: #1d1d1d;
+    --cor-card: #ffffff;
+    --cor-Link: #ffffff;
+
+}
+
+html{
+    font-size: 14px;
+}
+
 body{
     font-family: "Poppins", sans-serif;
-    background-color: #d5d5c9;
+    background-color: var(--cor-fundo);
 }
+
+h2, h3, strong{
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
 nav {
     background-color: #23232e;
     display: flex;
@@ -22,7 +50,7 @@ nav {
 }
 
 a{
-    color: #ffffff;
+    color: var(--cor-Link);
     text-decoration: none;
     transition: 0.70s;
     
@@ -61,6 +89,12 @@ ul{
     border: 1px solid #23232e;
     border-radius: 10px;
     background-color: #23232e;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .card-container { 
@@ -70,4 +104,48 @@ ul{
     text-align: center;
     flex-direction: column;
     grid-gap: 10px;
+}
+
+
+.produtos-lista{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.produtos-lista .produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: var(--cor-card);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+
+
+.produtos-lista .produto:hover {
+    transform: scale(1.075);
+}
+
+
+.produtos-lista .produto img {
+    width: 180px;
+    border-radius: 14px;
+}
+
+.produtos-lista .produto span {
+    text-align: justify;
+}
+
+
+main {
+    margin-top: 24px;
 }
