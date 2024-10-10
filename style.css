@@ -104,6 +104,15 @@ ul{
     text-align: center;
     flex-direction: column;
     grid-gap: 10px;
+    width: 450px;
+    background-color: white;
+}
+
+.main-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 
